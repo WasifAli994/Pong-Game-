@@ -5,7 +5,6 @@
  */
 package com.mycompany.pong;
 
-import javax.swing.*;
 
 /**
  *
@@ -16,6 +15,5 @@ public class PongGame
     public static void main(String args[])
     {
         GameFrame frame = new GameFrame();
-        JFrame frame2 = new JFrame("Anas");
     }
 }

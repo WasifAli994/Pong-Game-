@@ -15,7 +15,7 @@ public class Paddle extends Rectangle
 {
     int id;
     int yVelocity;
-    int speed = 25;
+    int speed = 30;
     
     Paddle(int x, int y, int PADDLE_WIDTH, int PADDLE_HEIGHT, int id)
     {
@@ -93,6 +93,7 @@ public class Paddle extends Rectangle
     {
         y = y + yVelocity;
     }
+
     public void draw(Graphics g)
     {
         //change color to white..
